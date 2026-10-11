@@ -1,0 +1,13 @@
+format = 2
+name = "Calculator"
+version = "0.1.0"
+type = "exec"
+output = "calculator.exec"
+sources = ["src/Program.hy"]
+project_references = []
+
+[package]
+id = "os.australis.calculator"
+description = "Minimal Australis executable"
+authors = ["Aurora Softwares"]
+license = "MIT"
