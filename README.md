@@ -5,9 +5,9 @@
 The current source prints `Hello, World!`; its commented argument loop is not executable calculator behavior.
 
 `Calculator.hyproj` builds `calculator.exec`. The Australis OS aggregate includes
-this project and installs the executable at `/Bin/calculator.exec` in the read-only
-HyFS 2 boot image. Run it by its bare name `/Bin/` through the current
-recovery shell's `PATH`, or use `run /Bin/calculator.exec`.
+this project and installs the executable at `/System/Bin/calculator.exec` in the read-only
+HyFS 2 boot image. Run it by its bare name `/System/Bin/` through the current
+recovery shell's `PATH`, or use `run /System/Bin/calculator.exec`.
 
 ## Planned direction
 
